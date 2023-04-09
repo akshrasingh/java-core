@@ -1,0 +1,53 @@
+package tryprograms;
+class akshra{
+	private int a ;
+  private static int d=0;
+	public akshra()
+
+	{
+		a=56;
+		d++;
+		a++;
+	}
+	public  void display()
+	{
+		System.out.println("the value of static variable for this object is "+d+"\n");
+		
+		System.out.println("the value of instance  variable for this object is "+a+"\n");
+	}
+	
+	
+	
+	
+}
+public class default_constructor
+{
+	public static void main(String g[])
+	{
+		akshra r =new akshra();
+		r.display();
+	
+		
+		akshra y=new akshra();
+	
+		y.display();
+	
+		akshra ra =new akshra();
+
+		ra.display();
+		
+		
+		akshra ya=new akshra();
+	
+		ya.display();
+	
+		
+		akshra rb =new akshra();
+		rb.display();
+		akshra yb=new akshra();
+
+	
+		yb.display();
+		
+	}
+}
