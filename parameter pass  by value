@@ -1,0 +1,23 @@
+package tryprograms;
+
+
+public class default_constructor
+{
+
+
+public static void main(String ag[]) {
+		
+		
+		int a =24;
+		add(a);
+		System.out.println("the value of a "+ a);
+		
+	}
+
+ public  static void add(int a )
+{
+	 int c=a+a;
+	 a++;
+	System.out.println("the value of add is "+ c);
+}
+}
