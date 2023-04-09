@@ -1,0 +1,32 @@
+package tryprograms;
+
+class akshra
+{
+	private int a ;
+	private int b;
+	 public akshra(int a ,int b)
+		{
+		           this.a=a;
+		           this.b=b;
+	System.out.println("the value of a is "+a);
+			System.out.println("the value of b is "+b);
+
+		}
+	
+	 public akshra(akshra boy)
+	{
+		 a=boy.a;
+		 b=boy.b;
+System.out.println("the value of a is "+a);
+		System.out.println("the value of b is "+b);
+
+	}
+}
+
+public class default_constructor
+{
+	public static void main(String ag[]) {
+		akshra e = new akshra(66,555);
+		akshra r=new akshra(e);
+	}
+}
